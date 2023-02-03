@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find Largest</title>
+    
+    <script type="text/JavaScript">
+        function largest(a, b) {
+            if (a < b) {
+                return a + " is greater";
+            } else {
+                return b + " is greater";
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <script type="text/JavaScript">
+        var num1 = parseInt(prompt("Please enter a number"),10); 
+        var  num2 = parseInt(prompt("Please enter a number"),10); 
+
+        document.write(largest(num1, num2));
+    </script>
+</body>
+</html>

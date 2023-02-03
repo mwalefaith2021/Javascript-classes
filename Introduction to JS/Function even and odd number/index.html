@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd and Even number</title>
+</head>
+<body>
+    <h2>Using <i>bitwise xor operator</i></h2>
+   <div id="number"></div>
+   <script>
+      function isOddEven(n)
+      {
+         if ((n ^ 1) == (n + 1))//even
+         return true;
+         else //odd
+         return false;
+      }
+      let output=document.getElementById("number");
+      var num = 100;
+      isOddEven(num)
+      ? output.innerHTML = num + " Even"
+      : output.innerHTML = num + " Odd" ;
+   </script>
+</body>
+</html>
