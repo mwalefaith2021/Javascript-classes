@@ -1,15 +1,31 @@
 <html lang="en">
 <head>
     
-    <title>foreach</title>
+    <title>forEach</title>
 </head>
 <body>
     <script>
+        //for loop
         const myNumbers = [1, 5, 10 , 15];
 
         for (i = 0; i < myNumbers. length; i++) {
             console. log(myNumbers[i]);
         }
+
+        //foreach array-does a call back function to each element of the array
+        myNumbers.forEach(function (myNumber) {
+            console.log(myNumber);
+        })
+
+        //index
+        myNumbers.forEach(function (myNumber, index) {
+            console.log('index: ' + myNumber);
+        })
+
+        //all parameters
+        myNumbers.forEach( (myNumber, index, array) => {
+            console.log(array);
+        })
     </script>
 </body>
 </html>
