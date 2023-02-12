@@ -1,5 +1,12 @@
-//foreach-executes a given function on every element on an array//
-let numbers = [1, 2, 3, 4, 5]
+//push()//
+const fruits = ["apple", "banana", "grape"];
+fruits.push("orange");
+console.log(fruits);
+
+//length//
+const fruits = ["apple", "banana", "grape"];
+let fruitsLength = fruits.push("orange");
+console.log(fruitsLength);
 
 
 
