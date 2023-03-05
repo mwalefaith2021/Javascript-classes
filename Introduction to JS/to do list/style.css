@@ -1,5 +1,5 @@
 body {
-	background: #e4bfa1;
+	background: linear-gradient(to right, rgba(194, 176, 176, 0), rgb(238, 141, 141));
 	text-align: center;
 	font-family: 'Courier New', Courier, monospace;
 }
@@ -10,12 +10,18 @@ body {
 }
 
 h1 {
-	color: #314d88;
+	color: #0f2961;
 	text-transform: uppercase;
     text-decoration: underline;
 	font-weight: bold;
     font-style: italic;
     
+}
+
+h2 {
+    color: aliceblue;
+   font-size: 35px;
+   margin: 0 20px;
 }
 
 p {
@@ -54,8 +60,8 @@ p {
 }
 
 #enter:hover{
-	background-color: #e77c52;
-	color: #FFCD5D;
+	background-color: #d16d86;
+	color: #f0ede8;
     
 }
 
@@ -67,14 +73,16 @@ ul {
 
 li {
 	list-style: none;
-	padding: 10px 30px;
+	padding: 10px 20px;
 	color: #746c6c;
 	text-transform: capitalize;
 	font-weight: 600;
 	border: 2px solid #d68080;
-	border-radius: 5px;
+	border-radius: 5px 10px;
 	margin-bottom: 10px;
-	background: #e9aa8e;
+	background: #f7cebc;
+   /* width: 500px;
+    min-height: 300px;*/
 	transition: all 0.75s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -83,7 +91,7 @@ li {
 }
 
 li:hover {
-	background: #e09e78;
+	background: #f09191;
 }
 
 li > button {
