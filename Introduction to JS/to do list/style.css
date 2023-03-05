@@ -1,7 +1,7 @@
 body {
-	background: #04A1BF;
+	background: #e4bfa1;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .intro {
@@ -10,9 +10,12 @@ body {
 }
 
 h1 {
-	color: #ffffff;
+	color: #314d88;
 	text-transform: uppercase;
-	font-weight: 800;
+    text-decoration: underline;
+	font-weight: bold;
+    font-style: italic;
+    
 }
 
 p {
@@ -21,11 +24,11 @@ p {
 
 #first {
 	margin-top: 10px;
-	color: #FFCD5D;
+	color: #423311;
 }
 
 #second {
-	color: #51DF70;
+	color: #49094e;
 
 }
 
@@ -39,8 +42,9 @@ p {
 	border: none;
 	padding: 5px 15px;
 	border-radius: 5px;
-	color: #04A1BF;
-	background-color: #025F70;
+	color: #f3dec4;
+	background-color: #97567c;
+    border: 2px solid #8f3c7b;
 	transition: all 0.75s ease;
 	-webkit-transition: all 0.75s ease;
 	-moz-transition: all 0.75s ease;
@@ -50,26 +54,27 @@ p {
 }
 
 #enter:hover{
-	background-color: #02798F;
+	background-color: #e77c52;
 	color: #FFCD5D;
+    
 }
 
 ul {
 	text-align: left;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 
 li {
 	list-style: none;
-	padding: 10px 20px;
-	color: #ffffff;
+	padding: 10px 30px;
+	color: #746c6c;
 	text-transform: capitalize;
 	font-weight: 600;
-	border: 2px solid #025f70;
+	border: 2px solid #d68080;
 	border-radius: 5px;
 	margin-bottom: 10px;
-	background: #4EB9CD;
+	background: #e9aa8e;
 	transition: all 0.75s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -78,7 +83,7 @@ li {
 }
 
 li:hover {
-	background: #76CFE0;
+	background: #e09e78;
 }
 
 li > button {
@@ -86,7 +91,7 @@ li > button {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: #aa1e30;
 	font-weight: 800;
 }
 
@@ -94,7 +99,7 @@ input {
 	border-radius: 5px;
 	min-width: 65%;
 	padding: 5px;
-	border: none;
+	border: 2px solid #f89a7d;
 }
 
 

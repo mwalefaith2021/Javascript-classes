@@ -12,9 +12,9 @@ function listLength(){
 }
 
 function createListElement() {
-	var li = document.createElement("li"); // creates an element "li"
+	var li = document.createElement("li"); // creates an element "li" (list)
 	li.appendChild(document.createTextNode(input.value)); //makes text from input field the li text
-	ul.appendChild(li); //adds li to ul
+	ul.appendChild(li); //adds li to ul (creates list after pressing enter)
 	input.value = ""; //Reset text input field
 
 
